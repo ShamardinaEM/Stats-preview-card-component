@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+.attribution a {
+    color: oklab(46.63% 0.00038 -0.13245);
+}
+body {
+    font-family: Inter;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: oklab(15.662999999999998% 0.00347 -0.03183);
+    height: 100vh;
+}
+.wrapper {
+    margin: auto;
+    background-color: oklab(23.749000000000002% 0.01389 -0.05458);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(2 * 540px);
+}
+.img-area {
+    min-width: 540px;
+    min-height: 446px;
+    background: url(/images/image-header-desktop.jpg);
+    background-color: oklab(62.011% 0.12543 -0.14804);
+    background-blend-mode: multiply;
+}
+.text-area {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+p {
+    color: oklab(100% 0 -0.00011 / 0.75);
+}
+h1 {
+    font-weight: 700;
+}
+.highlight {
+    color: oklab(62.011% 0.12543 -0.14804);
+}
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+.grid-item {
+    font-family: Lexend Deca;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: oklab(100% 0 -0.00011 / 0.6);
+}
+.grid-item-highlight {
+    padding-bottom: 5px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
